@@ -14,7 +14,7 @@ void printFreq(int arr[], int n){
         cout << arr[i-1] << " " << freq << endl;
 
         i++;
-        freq = 1;
+        freq = 1; 
     }
 
     if(n==1 || arr[n-1]!=arr[n-2])
