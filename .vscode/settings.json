@@ -1,6 +1,8 @@
 {
   "files.associations": {
     "utility": "cpp",
-    "xutility": "cpp"
+    "xutility": "cpp",
+    "iterator": "cpp",
+    "xmemory": "cpp"
   }
 }
