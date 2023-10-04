@@ -39,5 +39,4 @@ int main(){
 
     cout << maxSum(arr,n) << endl;
     cout << effMaxSum(arr,n) << endl;
-
 }
