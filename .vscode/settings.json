@@ -3,6 +3,7 @@
     "utility": "cpp",
     "xutility": "cpp",
     "iterator": "cpp",
-    "xmemory": "cpp"
+    "xmemory": "cpp",
+    "xlocale": "cpp"
   }
 }
