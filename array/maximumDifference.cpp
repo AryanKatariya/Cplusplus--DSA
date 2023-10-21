@@ -32,9 +32,9 @@ int effMaxDiff(int arr[],int n){
 
 int main() {
 	
-      int arr[] = {2, 3, 10, 6, 4, 8, 1}, n = 7;
+    int arr[] = {2, 3, 10, 6, 4, 8, 1}, n = 7;
 
-      cout<<maxDiff(arr, n);
-      cout << endl;
-      cout << effMaxDiff(arr, n);
+    cout<<maxDiff(arr, n);
+    cout << endl;
+    cout << effMaxDiff(arr, n);
 }
