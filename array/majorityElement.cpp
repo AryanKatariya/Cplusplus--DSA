@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include<algorithm>
 using namespace std;
 
 
@@ -62,12 +63,23 @@ int effFindMajority(int arr[],int n){
 // 	Auxiliary Space: O(1), As no extra space is required.
 }
 
+int majorityElement(int arr[],int n){
+	sort(arr,arr+n);
+	return arr[n/2];
+}
+
 
 int main() {
 	
-     int arr[] = {8, 7, 6, 8, 6, 6, 6, 6}, n = 8;
+    int arr[] = {2,2,1,1,1,2,2}, n = 8;
 
-     cout<<findMajority(arr, n)<<endl;
-     cout<<effFindMajority(arr, n);
+    //  cout<<findMajority(arr, n)<<endl;
+    //  cout<<effFindMajority(arr, n);
+
+	cout << majorityElement(arr,n);
+	// majorityElement(arr,n);
+	// for(auto x:arr){
+	// 	cout << x << " ";
+	// }
     
 }
